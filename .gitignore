@@ -1,3 +1,15 @@
+*.orig
+/log
+/tmp
+/coverage
+*~
+*.bak
+.directory
+*#
+.#*
+.DS_Store
+._*
+
 *.gem
 *.rbc
 .bundle
@@ -15,3 +27,4 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+
