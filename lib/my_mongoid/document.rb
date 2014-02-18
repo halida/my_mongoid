@@ -9,7 +9,7 @@ module MyMongoid
     include Fields
 
     def initialize(attrs={})
-      init_attributes(attrs)
+      process_attributes(attrs)
     end
 
     module ClassMethods

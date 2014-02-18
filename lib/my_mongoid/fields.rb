@@ -26,7 +26,7 @@ module MyMongoid
 
         f = Field.new(name)
 
-        self.fields[name.to_s] = f
+        self.fields[name] = f
 
         define_method(name) do
           read_attribute(name)
@@ -44,7 +44,7 @@ module MyMongoid
     attr_accessor :name
 
     def initialize(name)
-      @name = name.to_s
+      @name = name
     end
   end
 end
