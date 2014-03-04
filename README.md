@@ -1,5 +1,8 @@
 # MyMongoid
 
+[![Build Status](https://travis-ci.org/halida/my_mongoid.png?branch=master)](https://travis-ci.org/halida/my_mongoid)
+
+
 TODO: Write a gem description
 
 ## Installation
